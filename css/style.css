@@ -1,0 +1,93 @@
+*{
+    box-sizing: border-box;
+}
+
+main {
+    position: relative;
+    width: 500px;
+    height: 500px;
+    margin:10%;
+}
+.circle-first {
+    position: absolute;
+    background-color: red;
+    width: 30%;
+    height: 30%;
+    border-radius: 50%;
+    top:5%;
+    left:5%;
+}
+.circle-second {
+    position: absolute;
+    background-color: red;
+    width: 30%;
+    height: 30%;
+    border-radius: 50%;
+    right: 5%;
+    top:5%;
+}
+.circle-third {
+    position: absolute;
+    background-color: red;
+    width: 30%;
+    height: 30%;
+    border-radius: 50%;
+    bottom:5%;
+    left:5%;
+}
+.circle-fourth {
+    position: absolute;
+    background-color: red;
+    width: 30%;
+    height: 30%;
+    border-radius: 50%;
+    bottom:5%;
+    right:5%;
+}
+.big-square {
+    z-index: 50;
+    position: absolute;
+    width: 60%;
+    height: 60%;
+    bottom: 20%;
+    left: 20%;
+    background-color: rgb(0, 255, 221);
+}
+.small-square {
+    z-index: 50;
+    position: absolute;
+    width: 25%;
+    height: 25%;
+    background-color:yellow;
+    left: 37.5%;
+    bottom: 37.5%;
+    border-radius: 10%;
+}
+.circle-first:hover {
+    z-index: 75;
+    background-color: deeppink;
+}
+.circle-second:hover {
+    z-index: 75;
+    background-color: gold;
+}
+.circle-third:hover {
+    z-index: 75;
+    background-color: blue;
+}
+.circle-fourth:hover {
+    z-index: 75;
+    background-color: black;
+}
+.big-square:hover {
+    z-index: 100;
+    background-color: violet;
+}
+
+
+
+
+
+
+
+
